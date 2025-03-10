@@ -1,0 +1,130 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.leftside {
+  background-image: url(RobinImg.jpg);
+  flex: 1;
+  background-position: center;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.title {
+  margin-bottom: 30;
+  font-size: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  border: solid #ccc 0.1px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.fem{
+  width: 100%;
+  padding: 15px;
+  border: solid #ccc 0.1px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.input-container {
+  margin-top: 30px;
+}
+
+.checkbox-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.checkbox-container p {
+  margin-left: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.or {
+  text-align: center;
+  background-color: rgb(55, 43, 43);
+  color: white;
+  font-size: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.primary-btn {
+  background-color: black;
+  color: white;
+}
+
+.secondary-btn {
+  border: 1px solid black;
+  background: none;
+  color: black;
+}
+
+.footer {
+  margin: 30px 0;
+}
+
+.footer {
+  margin: 30px 0;
+}
+
+.footer-desc {
+  margin-top: 20px;
+}
+
+a,
+p,
+label{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+@media ( max-width: 768px) {
+    .leftside{
+        display: none;
+    }
+.rightside{
+    padding: 30px;
+}
+.button{
+    flex-direction: column;
+}
+    
+}
